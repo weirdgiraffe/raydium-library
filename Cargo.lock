@@ -2865,7 +2865,7 @@ dependencies = [
 [[package]]
 name = "raydium-amm-v3"
 version = "0.1.0"
-source = "git+https://github.com/raydium-io/raydium-clmm#da57b0b7409f5a4437feb8fd0551683b14b8a1f5"
+source = "git+https://github.com/weirdgiraffe/raydium-clmm#02dcd94d320e1a9cfe7cc61858c09936b305c768"
 dependencies = [
  "anchor-lang",
  "anchor-spl",
@@ -2873,6 +2873,7 @@ dependencies = [
  "bytemuck",
  "mpl-token-metadata 1.13.2",
  "solana-program",
+ "solana-security-txt",
  "spl-memo",
  "uint",
 ]
@@ -2913,7 +2914,7 @@ dependencies = [
 [[package]]
 name = "raydium_amm"
 version = "0.3.0"
-source = "git+https://github.com/raydium-io/raydium-amm#a507227c8d32bb10a03b7d04f1165430eae1f92c"
+source = "git+https://github.com/weirdgiraffe/raydium-amm#b4500c4a810e712c8622fcda16ff2c031be6be8e"
 dependencies = [
  "arrayref",
  "arrform",
@@ -3386,7 +3387,7 @@ dependencies = [
 [[package]]
 name = "serum_dex"
 version = "0.5.10"
-source = "git+https://github.com/raydium-io/openbook-dex#cff113afcec5bcf3c7aaace42d03b5d138d4328e"
+source = "git+https://github.com/weirdgiraffe/openbook-dex#dbe0037fa118502c13d36f6221c5dd58039a075a"
 dependencies = [
  "anchor-lang",
  "arrayref",
